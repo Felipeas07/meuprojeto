@@ -1,117 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&family=Open+Sans:wght@300;400;500;600&display=swap');
-body {
-    margin: 0;
-    font-family: 'Roboto', sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
-}
-
-header {
-    background-color: #1a1a1a;
-    color: white;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1000;
-}
-
-header h1 {
-    margin: 0;
-}
-
-nav {
-    display: flex;
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-    padding: 10px 15px;
-    display: inline-block;
-}
-
-nav a:hover {
-    background-color: #333;
-}
-
-.main-content {
-    padding: 20px;
-    margin-top: 60px; /* Espaço para o cabeçalho fixo */
-}
-
-.banner {
-    background: url('banner.jpg') no-repeat center center/cover;
-    padding: 100px 20px;
-    color: white;
-    text-align: center;
-}
-
-form {
-    margin: 20px 0;
-    padding: 20px;
-    background-color: white;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
-
-form label {
-    display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
-}
-
-form input,
-form select,
-form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-}
-
-form button {
-    background-color: #1a1a1a;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-form button:hover {
-    background-color: #333;
-}
-
-body {
-    font-family: 'Open Sans', sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
-    margin: 0;
-    padding: 0;
-}
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-/* Add more styles as needed */
-
-
-* #cadastro-page {
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
 }
 
-#cadastro-page body  {
+body {
     width: 100%;
     height: 100vh;
     display: flex;
@@ -120,14 +15,14 @@ body {
     background: #4242424d;
 }
 
-#cadastro-page .container {
+.container {
     width: 80%;
     height: 80vh;
     display: flex;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.212);
 }
 
-#cadastro-page .form-image {
+.form-image {
     width: 50%;
     display: flex;
     justify-content: center;
@@ -136,11 +31,11 @@ body {
     padding: 1rem;
 }
 
-#cadastro-page .form-image img {
+.form-image img {
     width: 31rem;
 }
 
-#cadastro-page .form {
+.form {
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -150,19 +45,19 @@ body {
     padding: 3rem;
 }
 
-#cadastro-page .form-header {
+.form-header {
     margin-bottom: 3rem;
     display: flex;
     justify-content: space-between;
     color: #fff;
 }
 
-#cadastro-page .login-button {
+.login-button {
     display: flex;
     align-items: center;
 }
 
-#cadastro-page .login-button button {
+.login-button button {
     border: none;
     background-color: #140bc7;
     padding: 0.4rem 1rem;
@@ -170,17 +65,17 @@ body {
     cursor: pointer;
 }
 
-#cadastro-page .login-button button:hover {
+.login-button button:hover {
     background-color: #140bc7;
 }
 
-#cadastro-page .login-button button a {
+.login-button button a {
     text-decoration: none;
     font-weight: 500;
     color: #fff;
 }
 
-#cadastro-page .form-header h1::after {
+.form-header h1::after {
     content: '';
     display: block;
     width: 5rem;
@@ -191,20 +86,20 @@ body {
     border-radius: 10px;
 }
 
-#cadastro-page .input-group {
+.input-group {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 1rem 0;
 }
 
-#cadastro-page .input-box {
+.input-box {
     display: flex;
     flex-direction: column;
     margin-bottom: 1.1rem;
 }
 
-#cadastro-page .input-box input {
+.input-box input {
     margin: 0.6rem 0;
     padding: 0.8rem 1.2rem;
     border: none;
@@ -213,48 +108,48 @@ body {
     font-size: 0.8rem;
 }
 
-#cadastro-page .input-box input:hover {
+.input-box input:hover {
     background-color: #eeeeee75;
 }
 
-#cadastro-page .input-box input:focus-visible {
+.input-box input:focus-visible {
     outline: 1px solid #140bc7;
 }
 
-#cadastro-page .input-box label,
+.input-box label,
 .gender-title h6 {
     font-size: 0.75rem;
     font-weight: 600;
     color: #f1efefc0;
 }
 
-#cadastro-page .input-box input::placeholder {
+.input-box input::placeholder {
     color: #f1efefc0;
 }
 
-#cadastro-page .gender-group {
+.gender-group {
     display: flex;
     justify-content: space-between;
     margin-top: 0.62rem;
     padding: 0 .5rem;
 }
 
-#cadastro-page .gender-input {
+.gender-input {
     display: flex;
     align-items: center;
 }
 
-#cadastro-page .gender-input input {
+.gender-input input {
     margin-right: 0.35rem;
 }
 
-#cadastro-page .gender-input label {
+.gender-input label {
     font-size: 0.81rem;
     font-weight: 600;
     color: #f1efefc0;
 }
 
-#cadastro-page .continue-button button {
+.continue-button button {
     width: 100%;
     margin-top: 2.5rem;
     border: none;
@@ -264,11 +159,11 @@ body {
     cursor: pointer;
 }
 
-#cadastro-page .continue-button button:hover {
+.continue-button button:hover {
     background-color: #140bc7;
 }
 
-#cadastro-page .continue-button button a {
+.continue-button button a {
     text-decoration: none;
     font-size: 0.93rem;
     font-weight: 500;
