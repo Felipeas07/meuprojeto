@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<<<<<<< HEAD
     <link rel="stylesheet" href="/static/css/stylestst.css">
     <title>Formulário</title>
     {% load static %}
@@ -26,6 +27,29 @@
                     </div>
                 </div>
 
+=======
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <title>Formulário</title>
+</head>
+
+<body class="cadastro-page">
+    <div class="container">
+        <div class="form-image">
+            <img src="{% static 'myapp/img/undraw_read_notes_gqmq.svg' %}" alt="">
+        </div>
+        <div class="form">
+            <form action="#">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Cadastre-se</h1>
+                    </div>
+                    <div class="login-button">
+                        <button><a href="{% url 'login' %}">Entrar</a></button>
+                    </div>
+                </div>
+
+>>>>>>> f8848a55368a2d5f4cf18314c8aa70ba533c643f
                 <div class="input-group">
                     <div class="input-box">
                         <label for="firstname">Primeiro Nome</label>
